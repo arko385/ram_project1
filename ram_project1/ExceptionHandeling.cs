@@ -1,4 +1,4 @@
-﻿/*
+﻿
  namespace ram_project1
 {
     class exp
@@ -11,7 +11,7 @@
         public static void Main(String[] args)
         {
             // Logical exception handeling
-            *//* 
+            /* 
                int a, b, c;
                Console.WriteLine("ENTER a");
                a = int.Parse(Console.ReadLine());
@@ -26,7 +26,7 @@
                c = a / b;
                Console.WriteLine(c);
                }
-             *//*
+             */
             try
             {
                 int a, b, c;

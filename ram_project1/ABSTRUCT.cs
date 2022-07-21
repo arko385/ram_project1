@@ -14,12 +14,26 @@ namespace ABSTRUCT
         public int age;
         public long phone;
         public abstract void print();
+       // we can create normal or parameterised constructor ,if we use parameterised constructor 
+       // then by using base we can pass the value
+       // parameterised constructor in abstruct class
+
+
+        //   person(string n1)
+        //  {
+        //   this.n1=n1;
+        //  }
 
     }
     class teacher : person
     {
         public int exp;
         public int sal;
+        // HOW TO USE PARAMETERISED CONSTRUCTER IN THE ABSTRUCT CLASS
+        // public teacher() :base(n1)
+        //     {
+        //      
+        //     }
         public override void print()
         {
             string s = this.n1 + " " + this.n2;
